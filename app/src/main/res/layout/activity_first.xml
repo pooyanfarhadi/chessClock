@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".First_Activity"
+    android:background="@color/blue">
+
+    <Button
+        style="@style/Widget.Material3.Button.TextButton"
+        android:id="@+id/min3"
+        android:text="3 Mins"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/Orange"
+        android:layout_centerHorizontal="true">
+
+    </Button>
+    <Button
+        style="@style/Widget.Material3.Button.TextButton"
+        android:id="@+id/min5"
+        android:text="5 Mins"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="130dp"
+        android:backgroundTint="@color/Orange"
+        android:layout_centerHorizontal="true">
+
+    </Button>
+
+    <Button
+        style="@style/Widget.Material3.Button.TextButton"
+        android:id="@+id/min10"
+        android:text="10 Mins"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="230dp"
+        android:backgroundTint="@color/Orange"
+        android:layout_centerHorizontal="true">
+
+    </Button>
+    <Button
+        style="@style/Widget.Material3.Button.TextButton"
+        android:id="@+id/min15"
+        android:text="15 Mins"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="330dp"
+        android:backgroundTint="@color/Orange"
+        android:layout_centerHorizontal="true">
+
+    </Button>
+    <Button
+        style="@style/Widget.Material3.Button.TextButton"
+        android:id="@+id/min25"
+        android:text="25 Mins"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="430dp"
+        android:backgroundTint="@color/Orange"
+        android:layout_centerHorizontal="true">
+
+    </Button>
+    <Button
+        style="@style/Widget.Material3.Button.TextButton"
+        android:id="@+id/Desired"
+        android:text="Desired"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="530dp"
+        android:backgroundTint="@color/Orange"
+        android:layout_centerHorizontal="true">
+
+    </Button>
+
+
+
+
+
+
+
+</RelativeLayout>
